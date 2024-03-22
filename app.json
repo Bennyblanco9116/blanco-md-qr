@@ -2,7 +2,7 @@
     "name": "Blanco-md",
     "description": "I am Blanco-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t In case of Any Problem : ",
     "logo": "https://telegra.ph/file/b8b5d773142425db15918.jpg",
-    "repository": "https://github.com/Bennyblanco9116/gifted-md-qr",
+    "repository": "https://github.com/Bennyblanco9116/blanco-md-qr",
     "keywords": ["whatsappbot", "blancoMd", "blanco Md bot", "Blanco-Md", "BlancoMdWhatsappBot", "BlancoWaBot","BlancoMD","Blanco Md Whatsapp Bot","multi device"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
