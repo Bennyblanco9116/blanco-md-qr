@@ -14,13 +14,13 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ╔════◇
-║ *『 WOW YOU CHOOSEN GIFTED-MD 』*
+║ *『 WOW YOU CHOOSEN BLANCO-MD 』*
 ║ _You Have Completed the First Step to Deploy Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║ *Ytube:* _youtube.com/@giftedtechnexus_
-║ *Owner:* _https://wa.me/254728782591_
+║ _
+║ *Owner:* _https://wa.me/254740915718_
 ║ 
 ╚════════════════════════╝
 `
@@ -41,12 +41,12 @@ if (fs.existsSync('./auth_info_baileys')) {
   
   app.use("/", async(req, res) => {
 
-  const { default: GiftedWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
+  const { default: BlancoWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function GIFTED() {
+  async function BLANCO() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
-      let Smd =GiftedWASocket({ 
+      let Smd =BlancoWASocket({ 
         printQRInTerminal: false,
         logger: pino({ level: "silent" }), 
         browser: Browsers.baileys("Desktop"),
@@ -93,7 +93,7 @@ SESSION-ID ==> ${Scan_Id}
             // console.log("Reason : ",DisconnectReason[reason])
             if (reason === DisconnectReason.connectionClosed) {
               console.log("Connection closed!")
-             // GIFTED().catch(err => console.log(err));
+             // BLANCO().catch(err => console.log(err));
             } else if (reason === DisconnectReason.connectionLost) {
                 console.log("Connection Lost from Server!")
             //  GIFTEDL().catch(err => console.log(err));
@@ -102,7 +102,7 @@ SESSION-ID ==> ${Scan_Id}
               GIFTED().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
-             // GIFTED().catch(err => console.log(err));
+             // BLANCO().catch(err => console.log(err));
             }  else {
                 console.log('Connection closed with bot. Please run again.');
                 console.log(reason)
@@ -131,7 +131,7 @@ SESSION-ID ==> ${Scan_Id}
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
 
-    //// MADE WITH GIFTED TECH
+    //// MADE WITH BLANCO TECH
 
 });
 
