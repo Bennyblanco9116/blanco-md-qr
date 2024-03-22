@@ -96,10 +96,10 @@ SESSION-ID ==> ${Scan_Id}
              // BLANCO().catch(err => console.log(err));
             } else if (reason === DisconnectReason.connectionLost) {
                 console.log("Connection Lost from Server!")
-            //  GIFTEDL().catch(err => console.log(err));
+            //  BLANCO().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              GIFTED().catch(err => console.log(err));
+              BLANCO().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
              // BLANCO().catch(err => console.log(err));
@@ -126,7 +126,7 @@ SESSION-ID ==> ${Scan_Id}
 
 
 
-  GIFTED().catch(async(err) => {
+  BLANCO().catch(async(err) => {
     console.log(err)
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
