@@ -2,10 +2,10 @@
     "name": "Blanco-md-qr",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web Qr Scanner.",
-    "main": "index.js",
+    "main": "blanco.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node index.js"
+      "start": "node blanco.js"
     },
     "keywords": ["baileysQr","MdLogin", "Blanco-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
     "author": "BlancoTech",
