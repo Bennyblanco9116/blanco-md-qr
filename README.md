@@ -1,15 +1,15 @@
-<h1 align="center"> WEB BASED MULTIDEVICE QR </h1>
+<h1 align="center"> BLANCO MD WEB QR </h1>
 
   <html>
    <body>
   <p align="center">  
-  <a aria-label="FORK" href="https://github.com/Giftedmaurice/gifted-md-qr/fork" target="_blank">
-    <img alt="License: GPL-3" src="https://img.shields.io/github/stars/SuhailTechInfo/web-qr?style=social" target="_blank" />
+  <a aria-label="FORK" href="https://github.com/Bennyblanco9116/blanco-md-qr/fork" target="_blank">
+    <img alt="License: GPL-3" src="https://img.shields.io/github/stars/Bennyblanco9116/blanco-md-qr?style=social" target="_blank" />
   </a>
-  <a aria-label="Gifted_Md is free to use" href="https://youtube.com/@giftedtechnexus" target="_blank">
-    <img alt="GiftedTech" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
+  <a aria-label="Blanco_Md is free to use" href="https://youtube.com/@giftedtechnexus" target="_blank">
+    <img alt="BennyBlanco" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
-    <p align="center"><img src="https://profile-counter.glitch.me/{smd-web-qr}/count.svg" alt="GiftedTech :: Visitor's Count" /></p>
+    <p align="center"><img src="https://profile-counter.glitch.me/{smd-web-qr}/count.svg" alt="Bennyblanco9116 :: Visitor's Count" /></p>
 
      
   </body>
@@ -18,9 +18,9 @@
 
 ## Deployment Methods
 ---
-1.  ***Click [`FORK`](https://github.com/Giftedmaurice/gifted-md-qr/fork) and `Star ⭐ Repository` if you get help from repo.***
-2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Giftedmaurice/gifted-md-qr).***
-3.  ***Deploy on [`REPLIT`](https://replit.com/github/Giftedmaurice/gifted-md-qr).***
+1.  ***Click [`FORK`](https://github.com/Bennyblanco9116/blanco-md-qr/fork) and `Star ⭐ Repository` if you get help from repo.***
+2.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Bennyblanco9116/blanco-md-qr).***
+3.  ***Deploy on [`REPLIT`](https://replit.com/github.com/Bennyblanco9116/blanco-md-qr).***
 4. ***Deploy on [`RENDER`](https://dashboard.render.com/login).***
 ```
 RENDER PROCESS:
@@ -46,7 +46,7 @@ RENDER PROCESS:
 
 - WASocket Options
 ```js
-    let Smd =GiftedWASocket({ 
+    let Smd =BlancoWASocket({ 
         printQRInTerminal: false,   // make it false if you're using web
         logger: pino({ level: "silent" }),     // make it silent to prevent baileys buffering
         browser: Browsers.baileys("Desktop"),  // awailable browsers : ubuntu, macOS, baileys.
@@ -82,4 +82,4 @@ RENDER PROCESS:
 
 
 ## MADE WITH ❤️ BY:
-[![GiftedTech](https://telegra.ph/file/54efddccf41281ad7ec51.jpg)](https://github.com/Giftedmaurice)
+[![Benny Blanco](https://avatars.githubusercontent.com/u/155071975?v=4)](https://github.com/Bennyblanco9116)
