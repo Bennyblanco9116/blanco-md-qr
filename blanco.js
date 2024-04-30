@@ -13,16 +13,29 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
+*✅sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ✅*
+*Made With 💜*
+*By Blanco ᴛᴇᴄʜ💜*
+____________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN BLANCO-MD 』*
-║ _You Have Completed the First Step to Deploy Whatsapp Bot._
-╚════════════════════════╝
+║『 𝐖𝐎𝐖 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 *BLANCO* 𝐌𝐃 』
+║ You've Completed the First Step
+║ to Deploy a Whatsapp Bot.
+╚════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║ _
-║ *Owner:* _https://wa.me/254740915718_
-║ 
-╚════════════════════════╝
+║❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _youtube.com/@Blanco 
+║❒ 𝐎𝐰𝐧𝐞𝐫: _* *https://wa.me/254740915718*
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/Bennyblanco9116/Blanco-Md_
+║❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/IDm8SAnEWRyEufMAcjrzin_
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: *Coming*  *soon*
+║❒ 𝐏𝐥𝐮𝐠𝐢𝐧𝐬: _https://github.com/Bennyblanco9116/blanco-Md-Plugins_
+║    💜💜💜
+╚════════════════════╝ 
+ *©²⁰²⁴ Blanco Whatsapp Bots*
+___________________________________
+
+Don't Forget To Give Star⭐ To My Repo
 `
 
 
